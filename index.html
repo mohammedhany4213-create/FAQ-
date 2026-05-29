@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+  
+  <!--the backgroung image-->
+<img alt="background-purple" src="./assets/images/background-pattern-desktop.svg" class="background-img">
+
+<!--The Card container-->
+<div class="card">
+
+<!--container for title an star icon at the top-->
+<section class="title">
+  <h1 class="faq">FAQs</h1>
+  <img alt="star-icon" src="./assets/images/icon-star.svg" class="star-icon">
+</section>
+<!--......................-->
+
+<!--div for first question and the plus icon -->
+<div class="div-question">
+<h3 class="q">What is Frontend Mentor, and how will it help me?</h3>
+<button id="btn-first-plus" class="btn-plus"><img alt="plus-icon" src="./assets/images/icon-plus.svg" class="plus-icon" id="first-plus"></button>
+</div>
+<P class="ans" id="first">Frontend Mentor offers realistic coding challenges to help developers improve their 
+  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+  all levels and ideal for portfolio building.</P>
+  <hr>
+<!----------------------------------->
+
+<!--div for second question and take the plus icon , question , paragraph as a class templets-->
+
+<div class="div-question" >
+  <h3 class="q" id="secq">Is Frontend Mentor free?</h3>
+  <button id="btn-second-plus" class="btn-plus"><img alt="plus-icon" src="./assets/images/icon-plus.svg" class="plus-icon" id="second-plus"></button>
+</div>
+  <p class="ans" id="second">Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+  option providing access to a range of projects suitable for all skill levels.
+</p>
+<hr>
+
+<!----------------------------------------->
+
+<!--div for third question and take the plus icon , question , paragraph as a class templets-->
+<div class="div-question">
+  <h3 class="q" id="thirdq">Can I use Frontend Mentor projects in my portfolio?</h3>
+  <button id="btn-third-plus" class="btn-plus"><img alt="plus-icon" src="./assets/images/icon-plus.svg" class="plus-icon" id="third-plus"></button>
+</div>
+<p class="ans" id="third">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+  way to showcase your skills to potential employers!</p>
+  <hr>
+  <!--------------------------------------------->
+
+  <!--div for fourth question and take the plus icon , question , paragraph as a class templets-->
+<div class="div-question">
+<h3 class="q" id="fourthq">How can I get help if I'm stuck on a Frontend Mentor challenge?</h3>
+<button id="btn-fourth-plus" class="btn-plus"><img alt="plus-icon" src="./assets/images/icon-plus.svg" class="plus-icon" id="fourth-plus"></button>
+</div>
+<p class="ans" id="fourth">The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+  channel where you can ask questions and seek support from other community members.</p>
+  
+<!--close of the card div-->
+</div>
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
